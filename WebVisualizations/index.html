@@ -58,30 +58,50 @@
 
       </nav>
 
+
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
-                <h1>Latitude Weather Analysis Summary</h1>
-            </div>
-        </div>
+            <div class="jumbotron">
+                <div class="col-md-6 col-lg-6">
+                        <div class="sidebar-sticky pt-3">
+                            <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="LatvTemp.html"><img src="Resources/assets/images/Fig1.png" width="200" height="200">
+                                Latitude vs MaxTemp
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="LatvHum.html"><img src="Resources/assets/images/Fig2.png" width="200" height="200">
+                                Latitude vs Humidity
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="LatvCloud.html"><img src="Resources/assets/images/Fig3.png" width="200" height="200">
+                                Latitude vs Cloudiness
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="LatvWind.html"><img src="Resources/assets/images/Fig4.png" width="200" height="200">
+                                Latitude vs Windspeed
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="row">
-            <div class="col-md-12">
-               <img src="Resources/assets/images/Fig1.png" alt="Latitude vs Max Temperature">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <p>
-                    Hi welcome to this Latitude weather Analysis website! For this project 
-                    data was pulled from OpenWeather API then analyzed within a jupyter notebook using pandas.
-                    Specifically data was pulled from over 500 cities around the world at varying latitudes. 
-                    The city latitude data was then compared agaisnt the city temperatures, cloudiness, wind speed,
-                    and lastly humidity. 
-                    Feel free to browse this site and take a look at the visualizations generated using matplotlib as well
-                    as their respective explanations.
-                </p>
+                <div class="col-md-6 col-lg-6">
+                        <h1 class="display-4">Latitude Weather Analysis Summary</h1>
+                        <hr class="my-4">
+                        <p>Hi welcome to this Latitude weather Analysis website! For this project 
+                            data was pulled from OpenWeather API then analyzed within a jupyter notebook using pandas.
+                            Specifically data was pulled from over 500 cities around the world at varying latitudes. 
+                            The city latitude data was then compared agaisnt the city temperatures, cloudiness, wind speed,
+                            and lastly humidity. 
+                            Feel free to browse this site and take a look at the visualizations generated using matplotlib as well
+                            as their respective explanations.
+                        </p>
+                </div>
             </div>
         </div>
     </div>
